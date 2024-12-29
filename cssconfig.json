@@ -1,0 +1,4 @@
+{
+  "globalCssFiles": ["./src/global.scss"],
+  "include": ["**/*.{jsx,tsx}"]
+}

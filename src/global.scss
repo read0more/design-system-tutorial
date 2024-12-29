@@ -1,0 +1,44 @@
+:root {
+  --color-dark: 230, 35%, 7%;
+  --color-light: 231 77% 90%;
+  --color-white: 0 0% 100%;
+}
+
+
+  .flex {
+    display: flex;
+    gap: var(--gap, 1rem);
+  }
+  
+  .grid {
+    display: grid;
+    gap: var(--gap, 1rem);
+  }
+  
+  .container {
+    padding-inline: 2em;
+    // padding: 0 2em;
+    margin-inline: auto;
+    max-width: 60rem;
+  }
+  
+  .screen-reader-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+  
+  .bg-dark { background-color: hsl( var(--color-dark)) }
+  .bg-accent { background-color: hsl( var(--color-light)) }
+  .bg-accent-alpha { background-color: hsl( var(--color-light) / .2) }
+  .bg-white { background-color: hsl( var(--color-white)) }
+  
+  .text-dark { color: hsl( var(--color-dark)) }
+  .text-accent { color: hsl( var(--color-light)) }
+  .text-white { color: hsl( var(--color-white)) }
