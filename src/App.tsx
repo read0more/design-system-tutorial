@@ -7,6 +7,7 @@ function App() {
       <div className={`bg-accent text-dark ${styles.box}`}>a</div>
       <div className={`bg-white text-dark ${styles.box}`}>b</div>
       <div className={`bg-accent-alpha text-white ${styles.box}`}>c</div>
+      <p className={styles.text}>Hello, world!</p>
     </div>
   )
 }

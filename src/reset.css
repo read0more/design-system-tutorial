@@ -23,6 +23,10 @@ picture {
 
 /* set up the body */
 body {
+  font-family: var(--font-family-normal);
+  font-size: var(--font-size-400);
+  color: hsl(var(--color-white));
+  background-color: hsl(var(--color-dark));
   line-height: 1.5;
   min-height: 100vh;
 }
